@@ -178,10 +178,3 @@ local headers = {
 local request = http_request or request or HttpPost or syn.request
 local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(abcdef)
-wait(0.1)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Join DC !,
-    Text = "https://discord.gg/3kZ7dKbJPe - Close In 45s",
-    Duration = 45
-})
-print("Invite Send !")
