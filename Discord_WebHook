@@ -181,6 +181,6 @@ request(abcdef)
 wait(0.1)
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Join DC !,
-    Text = "https://discord.gg/3kZ7dKbJPe",
-    Duration = 5
+    Text = "https://discord.gg/3kZ7dKbJPe - Close In 45s",
+    Duration = 45
 })
