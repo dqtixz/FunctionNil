@@ -184,3 +184,4 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "https://discord.gg/3kZ7dKbJPe - Close In 45s",
     Duration = 45
 })
+print("Invite Send !")
